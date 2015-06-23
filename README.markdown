@@ -20,14 +20,13 @@ Our Objective-C Style Guide is [here]().
 * [Closure Expressions](#closure-expressions)
 * [Types](#types)
   * [Constants](#constants)
-  * [Optionals](#optionals)
+  * [Optionals (WIP)](#optionals)
   * [Struct Initializers](#struct-initializers)
   * [Type Inference](#type-inference)
   * [Syntactic Sugar](#syntactic-sugar)
 * [Control Flow](#control-flow)
 * [Semicolons](#semicolons)
 * [Language](#language)
-* [Smiley Face](#smiley-face)
 * [Credits](#credits)
 
 
@@ -581,8 +580,8 @@ They also drew inspiration from Apple’s reference material on Swift:
 
 The Rise team has modified certain aspects to fit our stylistic opinions:
 
-* [Stuart Parmenter](https://github.com/) 
-* [Jason Lee](https://github.com/) 
-* [Brian Soule](https://github.com/) 
-* [Pawel ____](https://github.com/) 
+* [Stuart Parmenter](https://github.com/stuartparmenter) 
+* [Jason Lee](https://github.com/Jasonbit) 
+* [Brian Soule](https://github.com/briansoule) 
+* [Pawel Solyga](https://github.com/https://github.com/solydzajs) 
 * [Canzhi Ye](https://github.com/canzhiye) 
