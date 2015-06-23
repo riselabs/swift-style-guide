@@ -1,7 +1,7 @@
 # The Official Rise Swift Style Guide.
 (Derived from The Official raywenderlich.com Swift Style Guide.)
 
-Our overarching goals are conciseness, readability, and simplicity.
+Our overarching goals are conciseness, readability, and simplicity. 
 
 Our Objective-C Style Guide is [here]().
 
@@ -221,7 +221,7 @@ The example above demonstrates the following style guidelines:
 
 ### Use of Self
 
-For clarity, use `self` access an object's properties or invoke its methods.
+For clarity, use `self` to access an object's properties or invoke its methods.
 
 This way, using `self` when required to differentiate between property names and arguments in initializers will be consistent with other accesses of properties and invocation of methods:
 
@@ -300,7 +300,7 @@ func reticulateSplines(spline: [Double]) -> Bool {
 }
 ```
 
-For functions with long signatures, add line breaks at appropriate points and add an extra indent on subsequent lines:
+For functions with long signatures (over 120 characters), add line breaks at appropriate points and add an extra indent on subsequent lines:
 
 ```swift
 func reticulateSplines(spline: [Double], adjustmentFactor: Double,
@@ -378,7 +378,7 @@ Constants are defined using the `let` keyword, and variables with the `var` keyw
 **Tip:** A good technique is to define everything using `let` and only change it to `var` if the compiler complains!
 
 
-### Optionals
+### Optionals (WIP)
 
 Declare variables and function return types as optional with `?` where a nil value is acceptable.
 
@@ -472,7 +472,7 @@ Prefer the shortcut versions of type declarations over the full generics syntax.
 **Preferred:**
 ```swift
 var deviceModels: [String]
-var employees: [Int: String]
+var employees: [Int : String]
 var faxNumber: Int?
 ```
 
@@ -546,24 +546,9 @@ let color = "red"
 let colour = "red"
 ```
 
-## Smiley Face
-
-Smiley faces are a very prominent style feature of the raywenderlich.com site! It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket `]` is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis `)` creates a half-hearted smile, and thus is not preferred.
-
-**Preferred:**
-```
-:]
-```
-
-**Not Preferred:**
-```
-:)
-```  
-
-
 ## Credits
 
-This style guide is a collaborative effort from the most stylish raywenderlich.com team members: 
+This style guide is derived from a collaborative effort from the most stylish raywenderlich.com team members: 
 
 * [Jawwad Ahmad](https://github.com/jawwad)
 * [Soheil Moayedi Azarpour](https://github.com/moayes)
@@ -587,10 +572,17 @@ This style guide is a collaborative effort from the most stylish raywenderlich.c
 * [Ray Wenderlich](https://github.com/rwenderlich)
 * [Jack Wu](https://github.com/jackwu95)
 
-Hat tip to [Nicholas Waynik](https://github.com/ndubbs) and the [Objective-C Style Guide](https://github.com/raywenderlich/objective-c-style-guide) team!
-
-We also drew inspiration from Apple’s reference material on Swift:
+They also drew inspiration from Apple’s reference material on Swift:
 
 * [The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html)
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)
 * [Swift Standard Library Reference](https://developer.apple.com/library/prerelease/ios/documentation/General/Reference/SwiftStandardLibraryReference/index.html)
+
+
+The Rise team has modified certain aspects to fit our stylistic opinions:
+
+* [Stuart Parmenter](https://github.com/) 
+* [Jason Lee](https://github.com/) 
+* [Brian Soule](https://github.com/) 
+* [Pawel ____](https://github.com/) 
+* [Canzhi Ye](https://github.com/canzhiye) 
