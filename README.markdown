@@ -3,7 +3,7 @@
 
 Our overarching goals are conciseness, readability, and simplicity. 
 
-Our Objective-C Style Guide is [here]().
+Our Objective-C Style Guide is [here](https://github.com/riselabs/swift-style-guide).
 
 ## Table of Contents
 
