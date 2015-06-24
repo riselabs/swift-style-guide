@@ -156,6 +156,11 @@ When they are needed, use comments to explain **why** a particular piece of code
 
 Avoid block comments inline with code, as the code should be as self-documenting as possible. *Exception: This does not apply to those comments used to generate documentation.*
 
+If you have an unfinished piece of code, remember to leave a TODO comment in the format below. Never leave unfinished code without any comment. By adding username to the TODO it's easier to search for the TODOs that belong to particular committer.
+
+```
+// TODO(username): Add support for XYZ
+```
 
 ## Classes and Structures
 
